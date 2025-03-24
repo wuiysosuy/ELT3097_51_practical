@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">30 Days Challenge</string>
+
+    <!-- Tiêu đề cho từng ngày -->
+    <string name="day1_title">Ngày 1: Bắt đầu với Android</string>
+    <string name="day2_title">Ngày 2: Tìm hiểu về Jetpack Compose</string>
+    <string name="day3_title">Ngày 3: Layout cơ bản</string>
+    <string name="day4_title">Ngày 4: Thành phần UI</string>
+    <string name="day5_title">Ngày 5: Xử lý sự kiện</string>
+    <string name="day6_title">Ngày 6: Quản lý trạng thái</string>
+    <string name="day7_title">Ngày 7: ListView và LazyColumn</string>
+    <string name="day8_title">Ngày 8: Navigation</string>
+    <string name="day9_title">Ngày 9: ViewModel</string>
+    <string name="day10_title">Ngày 10: LiveData và StateFlow</string>
+    <string name="day11_title">Ngày 11: Repository Pattern</string>
+    <string name="day12_title">Ngày 12: Room Database</string>
+    <string name="day13_title">Ngày 13: Retrofit API</string>
+    <string name="day14_title">Ngày 14: Xử lý JSON</string>
+    <string name="day15_title">Ngày 15: Kết hợp Room và Retrofit</string>
+    <string name="day16_title">Ngày 16: Coroutine</string>
+    <string name="day17_title">Ngày 17: Flow và Paging</string>
+    <string name="day18_title">Ngày 18: Testing UI</string>
+    <string name="day19_title">Ngày 19: Debugging</string>
+    <string name="day20_title">Ngày 20: Custom Views</string>
+    <string name="day21_title">Ngày 21: Animation</string>
+    <string name="day22_title">Ngày 22: Material Design</string>
+    <string name="day23_title">Ngày 23: Dark Mode</string>
+    <string name="day24_title">Ngày 24: Permissions</string>
+    <string name="day25_title">Ngày 25: Notifications</string>
+    <string name="day26_title">Ngày 26: WorkManager</string>
+    <string name="day27_title">Ngày 27: Camera API</string>
+    <string name="day28_title">Ngày 28: Bluetooth và Sensors</string>
+    <string name="day29_title">Ngày 29: Kết nối Firebase</string>
+    <string name="day30_title">Ngày 30: Triển khai ứng dụng</string>
+
+    <!-- Nội dung mô tả cho từng ngày -->
+    <string name="day1_description">Hôm nay, chúng ta sẽ cài đặt môi trường phát triển Android và chạy ứng dụng đầu tiên.</string>
+    <string name="day2_description">Tìm hiểu về Jetpack Compose, thư viện UI hiện đại cho Android.</string>
+    <string name="day3_description">Khám phá cách tạo Layout bằng Column, Row, Box trong Jetpack Compose.</string>
+    <string name="day4_description">Làm quen với Button, TextField, Card và các thành phần UI khác.</string>
+    <string name="day5_description">Xử lý sự kiện người dùng như nhấn nút, nhập liệu, kéo thả.</string>
+    <string name="day6_description">Học cách quản lý trạng thái UI bằng State và ViewModel.</string>
+    <string name="day7_description">Hiển thị danh sách dữ liệu với LazyColumn và LazyRow.</string>
+    <string name="day8_description">Tích hợp Navigation Component để điều hướng giữa các màn hình.</string>
+    <string name="day9_description">Áp dụng ViewModel để quản lý dữ liệu một cách hiệu quả.</string>
+    <string name="day10_description">Sử dụng LiveData và StateFlow để cập nhật UI theo dữ liệu.</string>
+    <string name="day11_description">Triển khai Repository Pattern để quản lý dữ liệu tập trung.</string>
+    <string name="day12_description">Lưu trữ dữ liệu cục bộ bằng Room Database.</string>
+    <string name="day13_description">Tích hợp Retrofit để lấy dữ liệu từ API.</string>
+    <string name="day14_description">Xử lý JSON với Gson hoặc Moshi.</string>
+    <string name="day15_description">Kết hợp Room và Retrofit để lưu trữ dữ liệu hiệu quả.</string>
+    <string name="day16_description">Tìm hiểu về Coroutine để chạy tác vụ bất đồng bộ.</string>
+    <string name="day17_description">Áp dụng Flow và Paging để xử lý dữ liệu lớn.</string>
+    <string name="day18_description">Viết Unit Test và UI Test để kiểm tra ứng dụng.</string>
+    <string name="day19_description">Khám phá các công cụ debugging trong Android Studio.</string>
+    <string name="day20_description">Tạo Custom View với Canvas và Modifier.</string>
+    <string name="day21_description">Thêm hiệu ứng Animation cho ứng dụng.</string>
+    <string name="day22_description">Tuân thủ Material Design Guidelines để thiết kế UI.</string>
+    <string name="day23_description">Triển khai Dark Mode cho ứng dụng.</string>
+    <string name="day24_description">Yêu cầu quyền truy cập cho Camera, Vị trí, v.v.</string>
+    <string name="day25_description">Gửi Notifications để tương tác với người dùng.</string>
+    <string name="day26_description">Sử dụng WorkManager để chạy tác vụ nền.</string>
+    <string name="day27_description">Làm việc với Camera API để chụp ảnh và quay video.</string>
+    <string name="day28_description">Sử dụng Bluetooth và cảm biến trên thiết bị.</string>
+    <string name="day29_description">Kết nối Firebase để lưu dữ liệu trên cloud.</string>
+    <string name="day30_description">Đóng gói ứng dụng và triển khai lên Google Play.</string>
+
+</resources>
