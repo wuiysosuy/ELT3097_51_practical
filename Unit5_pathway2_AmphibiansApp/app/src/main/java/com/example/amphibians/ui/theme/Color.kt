@@ -14,18 +14,14 @@
  * limitations under the License.
  */
 
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+package com.example.amphibians.ui.theme
 
-buildscript {
-    extra.apply {
-        set("lifecycle_version", "2.8.7")
-        set("retrofit2_version", "2.11.0")
-    }
-}
+import androidx.compose.ui.graphics.Color
 
-plugins {
-    id("com.android.application") version "8.8.0" apply false
-    id("com.android.library") version "8.8.0" apply false
-    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
-    id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
-}
+val md_theme_light_background = Color(0xFFFCFDF6)
+val md_theme_light_surface = Color(0xFFFCFDF6)
+val md_theme_light_surfaceVariant = Color(0xFFDEE5D8)
+
+val md_theme_dark_background = Color(0xFF1A1C19)
+val md_theme_dark_surface = Color(0xFF1A1C19)
+val md_theme_dark_surfaceVariant = Color(0xFF424940)

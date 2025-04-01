@@ -1,4 +1,20 @@
-package com.example.unit5_pathway2_amphibiansapp.screens
+/*
+ * Copyright (C) 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.example.amphibians.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -29,9 +45,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.unit5_pathway2_amphibiansapp.R
-import com.example.unit5_pathway2_amphibiansapp.model.Amphibian
-import com.example.unit5_pathway2_amphibiansapp.ui.theme.Unit5_pathway2_AmphibiansAppTheme
+import com.example.amphibians.R
+import com.example.amphibians.model.Amphibian
+import com.example.amphibians.ui.theme.AmphibiansTheme
 
 @Composable
 fun HomeScreen(
@@ -148,7 +164,7 @@ private fun AmphibiansListScreen(
 @Preview(showBackground = true)
 @Composable
 fun LoadingScreenPreview() {
-    Unit5_pathway2_AmphibiansAppTheme {
+    AmphibiansTheme {
         LoadingScreen(
             Modifier
                 .fillMaxSize()
@@ -160,7 +176,7 @@ fun LoadingScreenPreview() {
 @Preview(showBackground = true)
 @Composable
 fun ErrorScreenPreview() {
-    Unit5_pathway2_AmphibiansAppTheme {
+    AmphibiansTheme {
         ErrorScreen({}, Modifier.fillMaxSize())
     }
 }
@@ -168,7 +184,7 @@ fun ErrorScreenPreview() {
 @Preview(showBackground = true)
 @Composable
 fun AmphibiansListScreenPreview() {
-    Unit5_pathway2_AmphibiansAppTheme {
+    AmphibiansTheme {
         val mockData = List(10) {
             Amphibian(
                 "Lorem Ipsum - $it",

@@ -14,18 +14,17 @@
  * limitations under the License.
  */
 
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+package com.example.amphibians
 
-buildscript {
-    extra.apply {
-        set("lifecycle_version", "2.8.7")
-        set("retrofit2_version", "2.11.0")
+import android.app.Application
+import com.example.amphibians.data.AppContainer
+import com.example.amphibians.data.DefaultAppContainer
+
+class AmphibiansApplication : Application() {
+    /** AppContainer instance used by the rest of classes to obtain dependencies */
+    lateinit var container: AppContainer
+    override fun onCreate() {
+        super.onCreate()
+        container = DefaultAppContainer()
     }
-}
-
-plugins {
-    id("com.android.application") version "8.8.0" apply false
-    id("com.android.library") version "8.8.0" apply false
-    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
-    id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
 }
