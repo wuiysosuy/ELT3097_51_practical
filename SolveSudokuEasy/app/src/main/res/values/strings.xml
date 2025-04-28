@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Solve Sudoku Easy</string>
+    <string name="image_view_desc">Hình ảnh Sudoku đã nhập</string>
+</resources>

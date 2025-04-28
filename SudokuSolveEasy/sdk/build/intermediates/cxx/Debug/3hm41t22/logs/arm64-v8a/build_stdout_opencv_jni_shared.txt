@@ -1,0 +1,2 @@
+ninja: Entering directory `F:\androidstudio\ELT3097_51_practical\SudokuSolveEasy\sdk\.cxx\Debug\3hm41t22\arm64-v8a'
+ninja: no work to do.
