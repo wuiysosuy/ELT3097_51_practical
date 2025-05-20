@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Solve Sudoku Easy</string>
-    <string name="import_button">Nhập ảnh</string>
-    <string name="processing">Đang xử lý ảnh...</string>
-    <string name="solve_all">Giải quyết hết</string>
-    <string name="next_step">Next</string>
-    <string name="error_processing">Lỗi xử lý ảnh</string>
-    <string name="no_grid_found">Không tìm thấy lưới Sudoku</string>
-</resources>
